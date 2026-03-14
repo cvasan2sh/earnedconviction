@@ -44,4 +44,14 @@ export const projects: Project[] = [
     status: "building",
     tags: ["strategy", "The Forge", "B2B SaaS"],
   },
+  {
+    slug: "the-forge",
+    name: "The Forge",
+    tagline: "Multi-agent deliberation system",
+    description:
+      "Takes hard problems and subjects them to adversarial multi-perspective examination. Not an answer engine — a place where problems get tested under pressure until what remains is a conviction worth acting on or an honest map of irreducible uncertainty.",
+    stage: "0-1",
+    status: "active",
+    tags: ["AI", "deliberation", "multi-agent"],
+  },
 ];

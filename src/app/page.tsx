@@ -1,92 +1,49 @@
-import Link from "next/link";
-import { projects } from "@/data/projects";
+import Image from "next/image";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import { getPageContent } from "@/lib/mdx";
+import ContactForm from "@/components/ContactForm";
+import SocialLinks from "./components/SocialLinks";
 
-export default function Home() {
+export default async function IdentityPage() {
+  const { content, frontmatter } = await getPageContent("index");
+
   return (
     <article>
       <section className="pb-24">
+        <Image
+          src="/avatar.jpg"
+          alt="Siva Pentakota"
+          width={120}
+          height={120}
+          className="mb-10 rounded-full"
+          priority
+        />
         <h1 className="font-display text-4xl font-normal tracking-tight text-foreground sm:text-5xl md:text-7xl">
-          Siva Pentakota
+          {frontmatter.title as string}
         </h1>
-        <p className="mt-8 font-body text-xl italic leading-relaxed text-muted">
-          [One line: what you do and believe. Replace this placeholder.]
-        </p>
+        {frontmatter.description && (
+          <p className="mt-8 font-body text-xl italic leading-relaxed text-muted">
+            {frontmatter.description as string}
+          </p>
+        )}
       </section>
 
-      <section className="border-t border-accent pt-24">
-        <h2 className="font-display text-2xl font-normal text-foreground">
-          What I&apos;m Building
-        </h2>
-        <ul className="mt-8 list-none space-y-12 pl-0">
-          {projects.map((project) => (
-            <li key={project.slug}>
-              <h3 className="font-display text-xl font-normal text-foreground">
-                {project.name}
-              </h3>
-              <p className="mt-1 font-body text-foreground/90 leading-relaxed">
-                {project.tagline}
-              </p>
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                <span
-                  className="inline-block rounded px-2 py-0.5 font-body text-xs tracking-wide text-accent"
-                  style={{ backgroundColor: "rgba(192, 57, 43, 0.15)" }}
-                >
-                  {project.stage}
-                </span>
-                <span className="font-body text-xs text-muted">
-                  {project.status}
-                </span>
-                {project.tags.map((tag) => (
-                  <span key={tag} className="font-body text-xs text-muted">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-8">
-          <Link
-            href="/projects"
-            className="font-body text-foreground/90 no-underline transition-colors hover:text-accent"
-          >
-            View projects →
-          </Link>
-        </p>
-      </section>
+      <div className="border-t border-accent pt-24">
+        <div className="max-w-2xl space-y-6 font-body text-foreground leading-relaxed [&_h2]:font-display [&_h2]:text-2xl [&_h2]:mt-12 [&_h2]:pt-12 [&_h2]:border-t [&_h2]:border-accent [&_p]:text-foreground/90 [&_strong]:text-foreground [&_a]:text-accent [&_a]:no-underline [&_a:hover]:underline">
+          <MDXRemote source={content} />
+        </div>
+      </div>
 
-      <section className="border-t border-accent pt-24">
+      <section className="mt-12 border-t border-accent pt-12">
         <h2 className="font-display text-2xl font-normal text-foreground">
-          How I Think
+          Send me a message
         </h2>
-        <p className="mt-6 max-w-2xl font-body text-foreground leading-relaxed">
-          [One or two sentences on your methodology and first principles.]
-        </p>
-        <p className="mt-6">
-          <Link
-            href="/forge"
-            className="font-body text-foreground/90 no-underline transition-colors hover:text-accent"
-          >
-            The Forge →
-          </Link>
-        </p>
-      </section>
-
-      <section className="border-t border-accent pt-24">
-        <h2 className="font-display text-2xl font-normal text-foreground">
-          What I&apos;m Writing
-        </h2>
-        <p className="mt-6 max-w-2xl font-body text-foreground leading-relaxed">
-          [Teaser for your latest writing.]
-        </p>
-        <p className="mt-6">
-          <Link
-            href="/writing"
-            className="font-body text-foreground/90 no-underline transition-colors hover:text-accent"
-          >
-            Latest writing →
-          </Link>
-        </p>
+        <div className="mt-8">
+          <ContactForm />
+        </div>
+        <div className="mt-12">
+          <SocialLinks variant="iconText" />
+        </div>
       </section>
     </article>
   );
