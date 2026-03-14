@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   title: "Earned Conviction | Siva Pentakota",
   description:
     "Personal brand and think tank — what I'm building, how I think, what I'm writing.",
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({

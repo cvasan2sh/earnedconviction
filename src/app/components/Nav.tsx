@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -23,11 +24,15 @@ export default function Nav() {
       style={{ backgroundColor: "rgba(26, 26, 26, 0.95)" }}
     >
       <nav className="mx-auto flex max-w-[720px] items-center justify-between gap-8 px-6 py-5 lg:px-8">
-        <Link
-          href="/"
-          className="font-display text-xl tracking-tight text-foreground no-underline"
-        >
-          Earned Conviction
+        <Link href="/" className="no-underline">
+          <Image
+            src="/logo.svg"
+            alt="Earned Conviction"
+            height={36}
+            width={117}
+            className="h-9 w-auto"
+            priority
+          />
         </Link>
 
         <ul className="hidden items-center gap-8 sm:flex">
