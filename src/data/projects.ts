@@ -23,16 +23,7 @@ export const projects: Project[] = [
     stage: "0-1",
     status: "building",
     tags: ["AI", "productivity", "B2B SaaS"],
-  },
-  {
-    slug: "zuari-farm-hub",
-    name: "Zuari Farm Hub",
-    tagline: "Agricultural intelligence for small farms",
-    description:
-      "A decision-support platform for smallholder farmers — crop planning, input optimization, market linkage.",
-    stage: "0-1",
-    status: "paused",
-    tags: ["agritech", "emerging markets", "AI"],
+    url: "https://innerloop.earnedconviction.com",
   },
   {
     slug: "war-room",
@@ -43,6 +34,17 @@ export const projects: Project[] = [
     stage: "0-1",
     status: "building",
     tags: ["strategy", "The Forge", "B2B SaaS"],
+    url: "https://warroom.earnedconviction.com",
+  },
+  {
+    slug: "agripulse",
+    name: "AgriPulse",
+    tagline: "Real-time agricultural intelligence for farmers",
+    description:
+      "A decision-support platform for smallholder farmers — crop planning, input optimisation, and market intelligence powered by AI.",
+    stage: "0-1",
+    status: "building",
+    tags: ["agritech", "AI", "emerging markets"],
   },
   {
     slug: "the-forge",

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { projects } from "@/data/projects";
 
 export const metadata = {
@@ -18,7 +19,19 @@ export default function ProjectsPage() {
           {projects.map((project) => (
             <li key={project.slug} className="border-t border-accent pt-12 first:border-t-0 first:pt-0">
               <h2 className="font-display text-2xl font-normal text-foreground">
-                {project.name}
+                {project.url ? (
+                  <Link
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="no-underline text-foreground transition-colors hover:text-accent"
+                  >
+                    {project.name}
+                    <span className="ml-2 text-base text-muted">↗</span>
+                  </Link>
+                ) : (
+                  project.name
+                )}
               </h2>
               <p className="mt-2 font-body text-foreground/90 leading-relaxed">
                 {project.tagline}
@@ -36,6 +49,11 @@ export default function ProjectsPage() {
                 <span className="font-body text-xs text-muted">
                   {project.status}
                 </span>
+                {!project.url && (
+                  <span className="font-body text-xs italic text-muted">
+                    Coming soon
+                  </span>
+                )}
                 {project.tags.map((tag) => (
                   <span key={tag} className="font-body text-xs text-muted">
                     {tag}
