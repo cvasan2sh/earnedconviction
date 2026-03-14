@@ -1,35 +1,23 @@
-import Avatar from "../components/Avatar";
-import SocialLinks from "../components/SocialLinks";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import { getPageContent } from "@/lib/mdx";
+import ContactForm from "@/components/ContactForm";
 
-export const metadata = {
-  title: "About | Earned Conviction",
-  description: "About Siva Pentakota.",
-};
+export async function generateMetadata() {
+  const { frontmatter } = await getPageContent("about");
+  return {
+    title: `${frontmatter.title as string} | Earned Conviction`,
+    description: frontmatter.description as string,
+  };
+}
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const { content } = await getPageContent("about");
+
   return (
-    <article>
-      <section className="pb-24">
-        <h1 className="font-display text-4xl font-normal tracking-tight text-foreground sm:text-5xl md:text-6xl">
-          About
-        </h1>
-      </section>
-      <section className="border-t border-accent pt-24">
-        <div className="space-y-12">
-          <div className="space-y-8">
-            <div className="flex justify-start">
-              <Avatar size={160} initials="SP" />
-            </div>
-            <SocialLinks variant="iconText" />
-          </div>
-
-          <div className="max-w-2xl space-y-6 font-body text-foreground leading-relaxed">
-          <p>[Your story, background, and what drives you. Fill in.]</p>
-          <p>[Second paragraph.]</p>
-          <p>[Third paragraph if needed.]</p>
-          </div>
-        </div>
-      </section>
+    <article className="space-y-24">
+      <div className="max-w-2xl space-y-8 font-body text-foreground leading-relaxed [&_h1]:font-display [&_h1]:text-4xl [&_h1]:tracking-tight [&_h2]:font-display [&_h2]:text-2xl [&_h2]:mt-16 [&_h2]:pt-8 [&_h2]:border-t [&_h2]:border-accent [&_p]:text-foreground/90 [&_a]:text-accent [&_a]:no-underline [&_a:hover]:underline">
+        <MDXRemote source={content} components={{ ContactForm }} />
+      </div>
     </article>
   );
 }
