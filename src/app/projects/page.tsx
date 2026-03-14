@@ -1,3 +1,5 @@
+import { projects } from "@/data/projects";
+
 export const metadata = {
   title: "Projects | Earned Conviction",
   description: "What I'm building.",
@@ -12,10 +14,37 @@ export default function ProjectsPage() {
         </h1>
       </section>
       <section className="border-t border-accent pt-24">
-        <div className="max-w-2xl space-y-6 font-body text-foreground leading-relaxed">
-          <p>[Overview of your projects and builders.]</p>
-          <p>[Add project titles and short descriptions as you go.]</p>
-        </div>
+        <ul className="list-none space-y-16 pl-0">
+          {projects.map((project) => (
+            <li key={project.slug} className="border-t border-accent pt-12 first:border-t-0 first:pt-0">
+              <h2 className="font-display text-2xl font-normal text-foreground">
+                {project.name}
+              </h2>
+              <p className="mt-2 font-body text-foreground/90 leading-relaxed">
+                {project.tagline}
+              </p>
+              <p className="mt-4 max-w-2xl font-body text-foreground/85 leading-relaxed">
+                {project.description}
+              </p>
+              <div className="mt-4 flex flex-wrap items-center gap-2">
+                <span
+                  className="inline-block rounded px-2 py-0.5 font-body text-xs tracking-wide text-accent"
+                  style={{ backgroundColor: "rgba(192, 57, 43, 0.15)" }}
+                >
+                  {project.stage}
+                </span>
+                <span className="font-body text-xs text-muted">
+                  {project.status}
+                </span>
+                {project.tags.map((tag) => (
+                  <span key={tag} className="font-body text-xs text-muted">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </li>
+          ))}
+        </ul>
       </section>
     </article>
   );
