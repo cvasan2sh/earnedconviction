@@ -17,8 +17,8 @@ export default async function WritingPage() {
         </h1>
       </section>
       <section className="border-t border-accent pt-24">
-        <div className="max-w-2xl space-y-6 font-body text-foreground leading-relaxed">
-          <p>[Intro to your writing. What you write about and why.]</p>
+        <div className="max-w-2xl space-y-6 font-body text-foreground/90 leading-relaxed">
+          <p>Deliberations, essays, and whitepapers on AI product building, enterprise SaaS, and ideas that survived The Forge.</p>
         </div>
         <ul className="mt-16 list-none space-y-16 pl-0">
           {posts.map((post) => (
@@ -30,7 +30,11 @@ export default async function WritingPage() {
                 <h2 className="font-display text-2xl font-normal text-foreground transition-colors hover:text-accent">
                   {post.title}
                 </h2>
-                <p className="mt-2 font-body text-sm text-muted">{post.date}</p>
+                <p className="mt-2 font-body text-sm text-muted">
+                  {post.date}
+                  <span className="mx-2">·</span>
+                  {post.readingTime} min read
+                </p>
                 <p className="mt-2 font-body text-foreground/90 leading-relaxed">
                   {post.description}
                 </p>

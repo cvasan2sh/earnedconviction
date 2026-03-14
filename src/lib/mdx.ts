@@ -13,7 +13,13 @@ export type WritingPostMeta = {
   tags: string[];
   stage?: string;
   agents?: string[];
+  readingTime: number;
 };
+
+function estimateReadingTime(content: string): number {
+  const words = content.trim().split(/\s+/).length;
+  return Math.max(1, Math.round(words / 230));
+}
 
 export async function getPageContent(slug: string) {
   const filePath = path.join(PAGES_DIR, `${slug}.mdx`);
@@ -31,7 +37,7 @@ export async function getAllWritingPosts(): Promise<WritingPostMeta[]> {
       const slug = file.replace(/\.mdx$/, "");
       const filePath = path.join(WRITING_DIR, file);
       const raw = await fs.readFile(filePath, "utf-8");
-      const { data } = matter(raw);
+      const { data, content } = matter(raw);
       return {
         slug,
         title: data.title ?? slug,
@@ -40,6 +46,7 @@ export async function getAllWritingPosts(): Promise<WritingPostMeta[]> {
         tags: Array.isArray(data.tags) ? data.tags : [],
         stage: data.stage,
         agents: Array.isArray(data.agents) ? data.agents : [],
+        readingTime: estimateReadingTime(content),
       };
     })
   );
