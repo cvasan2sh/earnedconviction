@@ -1,0 +1,233 @@
+# PRD — The Forge
+
+---
+version: 1.0
+last_updated: 2026-03-14
+updated_by: Siva Pentakota
+change: Initial Forge PRD — system designed, risk registry complete, build not yet started
+---
+
+---
+
+## What The Forge Is
+
+The Forge is a multi-agent deliberation system. It takes hard problems — about markets, products, society, human behaviour — and subjects them to adversarial multi-perspective examination before producing any output.
+
+It is not a content machine. It is not an answer engine. It is not a validation system for beliefs already held.
+
+It is a place where problems get tested under pressure until what remains is either a conviction worth acting on or an honest map of irreducible uncertainty.
+
+Both outcomes are valuable. Neither is inferior to the other.
+
+---
+
+## Why It Exists
+
+High-deliberation founders freeze because they run multiple cognitive modes simultaneously — consumer empathy, historical pattern matching, first principles reasoning, operational stress testing — all in one brain, in parallel, with no external structure to offload to.
+
+The freeze is not lack of intelligence. It is lack of serialisation.
+
+The Forge serialises deliberation so the founder can move from analysis into decision and execution.
+
+Secondary output: every problem run through The Forge for decision-making becomes a content asset almost for free. The exploration mode output IS the publishable intellectual product.
+
+---
+
+## The First Principles of The Forge
+
+**On what The Forge must never become:**
+A system that produces certainty where none exists. False certainty is the most dangerous output any thinking system can produce — more dangerous than being wrong, more dangerous than saying nothing.
+
+**On truth — three beliefs held simultaneously and treated as inseparable:**
+1. Truth emerges from adversarial collision between genuine perspectives
+2. Truth is always provisional and must remain open to falsification
+3. Intellectual honesty about uncertainty is more valuable than false precision
+
+**On who The Forge serves — three constituencies equally:**
+1. The founder who uses it to decide and execute
+2. The audience who consumes the deliberation as content
+3. The society the problems being solved affect
+
+The system fails if any one dominates.
+
+**On evolution:**
+Any structural change to The Forge must be run through The Forge before adoption. The system must examine itself with the same rigour it applies to everything else.
+
+---
+
+## The Six Stages
+
+| Stage | Name | Description |
+|-------|------|-------------|
+| 0 | Problem Definition Loop | Single dedicated agent. Only job: compress the problem statement until dense, specific, falsifiable. A cold reader must know exactly what a good solution looks like. Parliament does not activate until this passes. |
+| 1 | Exploration Mode | Dynamic agent parliament. Sequential, randomised order, blind outputs — each agent writes before seeing others. |
+| 2 | Crucible Synthesis | Receives all agent outputs simultaneously. Produces: tension map, convergence points, ranked conviction output with confidence levels, explicit statement of where it felt pulled. |
+| 3 | Mode Switch Trigger | External contact only — customer call, prototype reaction, market data. Not a judgment call. Not a feeling. First genuine external signal flips to conviction mode. |
+| 4 | Conviction Mode | Force Output Format activates. Ranked decision with confidence levels. Steelman of abandonment required — explicit case for reversing the decision before committing. |
+| 5 | Human Clock | A predetermined human asks one question at a predetermined time: "Did you decide?" Not what did the Forge produce. Just — did you decide. Exists entirely outside the system's epistemology. |
+
+---
+
+## The Agent Parliament
+
+### Permanent Agents — always active
+
+| Agent | Role |
+|-------|------|
+| Historian | Documented research, precedents, prior failures, data, lobbying and institutional positions |
+| First Principles | Rational derivation from base assumptions. Ignores precedent. May propose new technology or category. |
+| Falsification | Popperian logic — not counterargument. Only job: find where the emerging consensus breaks. Replaces appointed devil's advocate. |
+
+### Contextual Agents — selected per problem
+
+| Agent | When Active |
+|-------|------------|
+| Consumer Agent | Any product or market problem |
+| Business Agent | Provider-side analysis needed |
+| Platform Agent | Environmental constraints and technology landscape |
+| Forced Inversion Agent | Every session — intake only. Takes problem statement and generates the most counterintuitive, category-violating version before parliament activates. |
+| Category Destruction Agent | 10-100 stage only. Sole job: invalidate existing segmentation and category definitions. |
+| Custom Agent | Created per problem when existing agents are insufficient. Defined at session start. |
+
+### The Crucible
+The synthesis agent. Receives all agent outputs simultaneously. Does not summarise. Does not average. Maps the tensions that survived agent collision and finds where they converge under pressure. Explicitly surfaces its own bias — where it felt pulled toward a conclusion.
+
+---
+
+## Two Operating Modes
+
+| Mode | Active Principles | When |
+|------|-----------------|------|
+| Exploration | Disrupt default patterns + Adversarial meta-agents + Reality anchoring | From Stage 0 until first external contact signal |
+| Conviction | Force explicit output format + Reality anchoring | After external contact trigger |
+
+The mode switch is external and inevitable. You cannot stay in exploration mode indefinitely because reality speaks first.
+
+---
+
+## Stage Configurations by Problem Type
+
+| Stage | Primary Risk | Agent Configuration |
+|-------|------------|-------------------|
+| 0-1 | Freshness Illusion — parliament makes a flawed concept feel rigorous | Heavy Problem Definition Loop. Output = experiments not conclusions. Forced Inversion always active. |
+| 1-10 | Motivated synthesis — early signal drives post-commitment validation | Falsification Agent prominent. Steelman of abandonment required. Session log mandatory. |
+| 10-100 | Category Lock — system optimises within definitions that need to come down | Category Destruction Agent activates. Historian cross-checks scale precedents. |
+
+---
+
+## Risk Registry
+
+| Risk | Description | Mitigation | Precedent |
+|------|-------------|------------|-----------|
+| Wrong Question Risk | Debates inside a flawed premise | Problem Definition Loop — parliament doesn't activate until problem is falsifiable | Minto Pyramid |
+| Architect Capture | Synthesis reflects unconscious bias | Crucible explicitly surfaces where it felt pulled | Confirmation bias — Kahneman |
+| Cascade Contamination | First agent poisons subsequent framing | Randomised sequence, blind outputs | Anchoring bias — Tversky |
+| Antibody Paralysis | Compelling cases for and against everything | Ranked conviction output, time-boxed deliberation | Analysis paralysis — Schwartz |
+| Freshness Illusion | Novel recombination feels like original insight | External contact trigger — reality adjudicates | Cynefin |
+| Legibility Creep | Well-formed inputs crowd out weird hunches | Forced Inversion Agent built structurally into intake | Goodhart's Law |
+| Stage Blindness | Same config across different problem stages | Three distinct configurations | Crossing the Chasm — Moore |
+| Category Lock | Optimises within existing definitions | Category Destruction Agent at 10-100 | Innovator's Dilemma — Christensen |
+| Validation Drift | Post-commitment sophisticated confirmation | Sessions flagged pre/post, steelman required | Post-purchase rationalisation |
+| Devil's Advocate Theater | Adversarial agent performs opposition | Replaced with Falsification on Popperian logic | Groupthink — Janis |
+| Complexity Collapse | System too heavy to operate correctly | Problem Definition Loop as filter | Systems theory |
+| Definition Trap | Freeze moves upstream into definition stage | Human Clock — external, predetermined, unavoidable | Procrastination as displaced anxiety |
+
+---
+
+## The Four Operating Principles
+
+Distilled from the risk registry — every mitigation is an application of one of these:
+
+| Principle | What It Does |
+|-----------|-------------|
+| Disrupt default patterns | Prevents calcification — randomised sequence, rotate framing |
+| Mandate uncomfortable output formats | Forces precision — ranked outputs, confidence levels, steelman |
+| Build adversarial meta-agents | Structural dissent — Falsification Agent, Forced Inversion, Category Destruction |
+| Force contact with reality | External trigger — mode switch, Human Clock, publish or test |
+
+**The irreconcilable conflict:** Disrupt and Force Output Format want opposite things. Solution: they operate in different modes. Exploration uses Disrupt. Conviction uses Force Output. Never simultaneously.
+
+---
+
+## Content Layer
+
+### The Dual Output Principle
+Every Forge session run for decision-making becomes a content asset for free. Exploration output = publishable. Conviction output = private.
+
+### Content Types Generated
+
+| Type | Description |
+|------|-------------|
+| Forge Deliberations | Full structured debate showing agent tensions, convergence, conviction or honest uncertainty |
+| Long-form Essays | Extended analysis distilled from deliberations |
+| Agent Whitepapers | Each permanent agent produces its own longform POV piece on a topic — genuine insight with citations. Not regurgitation. |
+| GEO Explainers | Most-searched questions in each domain, optimised for AI search engines and semantic discovery |
+
+### Domain Authority Mechanism
+Slop always has a conclusion. The Forge earns its conclusions or withholds them. That is the moat — and it is architectural, not a positioning choice. Audiences feel the difference even when they cannot articulate why.
+
+---
+
+## Build Status
+
+### Designed — not yet built
+- [x] Six-stage process designed
+- [x] Agent parliament designed
+- [x] Risk registry complete with mitigations
+- [x] Operating principles distilled
+- [x] Two-mode configuration designed
+- [x] Content layer strategy defined
+- [x] The First Principles written
+
+### To Build — Local (Claude Code on Windows PC)
+- [ ] Problem Definition Loop agent — single agent, compression and falsifiability testing
+- [ ] Parliament orchestrator — sequential calls, randomised order, blind outputs
+- [ ] Individual agent system prompts — Historian, First Principles, Falsification
+- [ ] Forced Inversion Agent — intake only
+- [ ] Crucible synthesis agent — tension mapping, not summarisation
+- [ ] Session logger — saves full session to forge-sessions/
+- [ ] Mode switch detection — flags when external contact occurs
+- [ ] Conviction output formatter — ranked decision with confidence levels
+
+### To Build — Future
+- [ ] forge.earnedconviction.com — public facing Forge interface
+- [ ] Session archive — browse past deliberations
+- [ ] Agent Whitepaper generator — per-agent longform content pipeline
+- [ ] GEO explainer pipeline — question research + Forge treatment
+
+---
+
+## Running The Forge
+
+### Where It Runs
+Locally on Windows PC via Claude Code. Not on Vercel.
+
+| Component | Where | Why |
+|-----------|-------|-----|
+| Parliament sessions | Local — Claude Code | Long-running, expensive, needs judgment at mode switch |
+| Problem Definition Loop | Local | Interactive, you're present |
+| Content generation | Local | Same reason |
+| Published output | Vercel | Static MDX, zero compute cost |
+| Newsletter | Vercel + Resend | Lightweight, fire and forget |
+
+Think locally. Publish globally.
+
+### Session Workflow
+1. Open Claude Code
+2. State the problem
+3. Run Problem Definition Loop until problem passes falsifiability test
+4. Activate parliament — agents run sequentially, blind
+5. Crucible synthesises
+6. Await external contact for mode switch
+7. Run Conviction Mode
+8. Human Clock fires — did you decide?
+9. Save session to `forge-sessions/YYYY-MM/`
+10. If publishing → copy to `src/content/writing/` with frontmatter → push → live
+
+---
+
+## Version History
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.0 | 2026-03-14 | Initial Forge PRD — system fully designed, build not yet started |
