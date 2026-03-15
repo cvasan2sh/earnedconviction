@@ -1,0 +1,204 @@
+THE FORGE — PROBLEM STATEMENT v3
+earnedconviction.com | Self-Sustaining Growth System | March 2026
+═══════════════════════════════════════════════════════════════════
+
+CONTEXT AND PRIOR RUNS
+
+This is the third Forge deliberation on earnedconviction.com. The
+previous two runs produced the following settled conclusions that
+this run treats as established — not up for re-deliberation:
+
+1. Services before product. No exceptions. Median time-to-first-
+   dollar: consulting 14 days, SaaS 180 days. Incompatible with
+   90-120 day runway.
+
+2. The warm Freshworks network is the only viable distribution
+   channel that can produce revenue within the timeline.
+
+3. The offering is applied deliberation on the buyer's real
+   strategic problem — not software, not generic advice, not
+   content marketing. The Forge applied to their problem, delivered
+   as a service.
+
+4. earnedconviction.com is a trust artifact and portfolio, not a
+   top-of-funnel acquisition channel.
+
+5. The 10-day network test is the highest-leverage first action.
+   It has not been executed yet. The output of this deliberation
+   must account for why it hasn't happened and design around that.
+
+These are settled. This run goes further.
+
+
+THE HONEST STATE
+
+Four constraints exist simultaneously:
+
+CONSTRAINT 1 — NO BUYER VALIDATION
+The Forge has not been shown to a single person who didn't build it
+in a commercial context. Zero buyer signal. Zero willingness-to-pay
+data. The output quality is unvalidated by the market. Everything
+downstream of this is speculation until it is resolved.
+
+CONSTRAINT 2 — PACKAGING IS UNDEFINED
+The Forge is simultaneously: a CLI tool, a deliberation methodology,
+a personal brand, a content site, and a potential product. Buyers
+cannot purchase something they cannot name or categorise. There is
+no clean answer to "what do I get, what does it cost, and why does
+it cost that."
+
+CONSTRAINT 3 — DISTRIBUTION IS ZERO
+The right people do not know this exists. earnedconviction.com has
+zero organic traffic. The newsletter has zero subscribers. No one
+has referred a buyer. The only distribution asset is a warm
+professional network from Freshworks that has not been activated.
+
+CONSTRAINT 4 — KNOWN FOLLOW-THROUGH WEAKNESS
+This is the meta-constraint. The founder has a documented personal
+pattern: high idea generation, strong system-building, weaker
+execution on repetitive or uncomfortable tasks. The Forge itself
+was partly designed to solve this pattern in the founder. The
+irony is that building The Forge may itself be an expression of
+the pattern — producing an elaborate deliberation system instead
+of making ten sales calls.
+
+This must be named directly: if the follow-through weakness is not
+structurally addressed in whatever strategy emerges from this run,
+the strategy will not be executed regardless of its quality. A
+perfect plan that isn't executed is worthless. An imperfect plan
+with structural accountability is worth everything.
+
+
+THE QUESTION THIS RUN MUST ANSWER
+
+How does The Forge become a self-sustaining system — one that sells,
+builds, and continuously improves itself toward $100K ARR — given
+that the founder has not yet validated buyer willingness-to-pay,
+has not packaged the offering cleanly, has zero distribution, and
+has a known execution weakness that previous deliberations have
+identified but not solved?
+
+Specifically, The Forge must answer four questions:
+
+QUESTION 1 — SEQUENCING:
+What is the minimum viable sequence of actions that gets from zero
+buyer validation to first dollar, and from first dollar to a
+repeatable system, without assuming perfect execution or unlimited
+willpower? Design for the founder as they actually are — not as
+they aspire to be.
+
+QUESTION 2 — THE FLYWHEEL:
+What does the self-reinforcing growth system look like once it is
+running? Specifically: how does each sale make the next sale
+easier, how does each Forge run make the next run better, and how
+does each published output attract the next buyer? Name the
+specific mechanism for each loop — not the principle, the
+mechanism.
+
+QUESTION 3 — STRUCTURAL ACCOUNTABILITY:
+The follow-through weakness is real and documented. What structural
+mechanisms — external to the founder's willpower — force execution
+at each stage? The answer cannot be "commit harder" or "use The
+Forge to stay accountable." It must be external: other people,
+financial consequences, public commitments, or hard deadlines with
+real costs attached.
+
+QUESTION 4 — THE HYBRID ENDPOINT:
+The desired end state is a hybrid — founder configures and quality-
+checks, The Forge does the heavy lifting. What does this look like
+operationally at $100K ARR? How many clients, what cadence, how
+much founder time per week, what does The Forge handle autonomously
+versus what requires human judgment? Be specific enough that this
+description could be used to build toward it.
+
+
+WHAT THE FOUNDER CURRENTLY BELIEVES
+
+Belief 1: Publishing deep Forge deliberations on earnedconviction.com
+will eventually attract the right buyers and create inbound demand.
+
+Belief 2: The Forge's output quality — as demonstrated in three
+internal runs — is good enough to charge $5,000 per engagement.
+
+Belief 3: The system can become largely self-operating once the
+initial methodology is refined and documented.
+
+Belief 4: The follow-through weakness will be resolved by having
+enough external pressure and a clear enough system to follow.
+
+The Forge must stress-test each of these beliefs. Belief 4 in
+particular should be attacked hardest — it is the most load-bearing
+and the most likely to be wishful thinking.
+
+
+WHAT THE FORGE MUST PRODUCE
+
+This run has a higher output standard than the previous two. The
+Crucible must produce all of the following or the run is incomplete:
+
+OUTPUT 1 — THE VALIDATION SPRINT (Week 1-2 plan):
+A specific, day-by-day plan for the first 14 days that gets from
+zero to first buyer signal. Not principles. Specific actions,
+specific people (by role/relationship type if not by name), specific
+scripts for the outreach messages, and specific criteria for what
+constitutes a genuine signal versus a polite non-answer.
+
+OUTPUT 2 — THE PACKAGING DECISION:
+A single clear answer to: "What is The Forge, who is it for, what
+do they get, and what does it cost?" One sentence for each. No
+hedging. If multiple versions are viable, rank them and commit to
+one for the validation sprint. The others can be tested later.
+
+OUTPUT 3 — THE FLYWHEEL DESIGN:
+A diagram-level description of the self-reinforcing system. Each
+node named. Each connection mechanism specified. The specific
+trigger that starts each loop. The specific failure mode that
+breaks each loop.
+
+OUTPUT 4 — THE ACCOUNTABILITY ARCHITECTURE:
+Three to five specific structural mechanisms that enforce execution
+independent of the founder's motivation on any given day. Each
+mechanism must name: who else is involved, what the consequence of
+non-execution is, and how it is set up in the first week.
+
+OUTPUT 5 — THE HYBRID OPERATING MODEL:
+A description of the $100K ARR steady state. Hours per week.
+Client count. Forge runs per month. What is automated. What
+requires the founder. What the founder's role looks like when the
+system is running versus when it is being built.
+
+
+THE UNCOMFORTABLE QUESTION THE FORGE MUST ANSWER DIRECTLY
+
+Is the founder building The Forge to avoid doing the uncomfortable
+work of selling?
+
+The evidence for yes: three elaborate deliberation runs have been
+completed. Zero sales calls have been made. Zero buyers have seen
+the output. The system is becoming more sophisticated while the
+commercial problem remains at zero.
+
+The evidence for no: the system is genuinely novel, the output
+quality is demonstrably strong, and building the methodology before
+selling it is a legitimate sequencing choice when the product needs
+to exist before it can be demonstrated.
+
+The Forge must give a direct answer — not a balanced "on one hand,
+on the other hand" synthesis. One of these is more true than the
+other. Name which one and defend it.
+
+
+NON-NEGOTIABLES
+
+The earnedconviction.com brand philosophy is non-negotiable.
+The hybrid model (founder + Forge) is the target operating model.
+The $100K ARR target in 90-120 days is aspirational but directional.
+The follow-through weakness must be designed around, not wished away.
+
+A vague output is a failed run.
+An output that flatters the founder is a dishonest run.
+The standard is: could someone else read this and execute it?
+
+═══════════════════════════════════════════════════════════════════
+END OF PROBLEM STATEMENT
+Session: earnedconviction-v3 | March 2026

@@ -1,0 +1,136 @@
+FORGE PROBLEM STATEMENT — DATA ENGINEERING STARTUP OPPORTUNITY
+===============================================================
+
+PROBLEM:
+The data engineering landscape is in transition. Mechanical work (movement, transformation,
+orchestration) is being commoditized. A new layer of value is forming — but it is not yet
+clear exactly where the highest-leverage, most buildable opportunities sit for a new entrant.
+
+The question is NOT "what are the trends?" That is already known.
+
+The question is: for a deep-tech startup entering this space TODAY, which specific problems
+have all three of the following properties simultaneously:
+  (A) ACUTE practitioner pain — people are suffering this NOW, not theoretically
+  (B) TECHNICALLY FEASIBLE — buildable with current primitives, no research breakthroughs needed
+  (C) MARKET GAP — incumbents are not solving it well, and the category is not yet crowded
+
+The Forge must produce SPECIFIC candidate opportunities — not themes, not trend summaries.
+Specific enough that a founding team could write a product spec from the output.
+
+
+SCOPE CONSTRAINTS FOR THE AGENTS:
+- Focus on 2025-2028 horizon
+- Distinguish between "vendors are talking about this" vs "practitioners are actually suffering this"
+- Distinguish between "someone is building this" vs "nobody has built the right version yet"
+- Distinguish between "frontier teams have solved this" vs "median enterprise is still bleeding here"
+- Do NOT summarize trends. The Crucible must produce candidates, not observations.
+
+
+WHAT THE CRUCIBLE MUST PRODUCE:
+- 3 to 5 specific startup opportunity candidates
+- For each: name the exact pain, name why existing solutions fail, name what the right
+  product looks like, name who the buyer is, and assess defensibility
+- A ranked conviction order with explicit reasoning for the ranking
+- The one opportunity the Crucible would bet on if forced to choose only one
+
+
+AGENT INSTRUCTIONS:
+===================
+
+HISTORIAN:
+Your job is to find the PATTERN, not recount the history.
+- In each prior transition (ETL era → Modern Data Stack era → Lakehouse era), what class
+  of problem got LEFT BEHIND and became the next startup opportunity?
+- What is the structural analog today — what is the class of problem that the current
+  transition is leaving exposed?
+- What does the graveyard of failed attempts in this space tell you about what NOT to build?
+- Specifically: which past startup categories got commoditized by the platforms, and which
+  ones survived and why?
+
+FIRST PRINCIPLES:
+Your job is to reason from the CHANGED CONSTRAINT, not describe the landscape.
+- The primary consumer of data has shifted from human analysts to AI agents and ML pipelines.
+  What does that shift SPECIFICALLY demand from infrastructure that did not exist before?
+- Data quality has always been a problem. Why has it NOT been solved despite $180B spent on
+  data tooling? What structural reason keeps it unsolved — and does that structural reason
+  change in the AI-consumer era?
+- If you had to identify the ONE thing that makes AI agents fail on enterprise data today
+  that is NOT a model capability problem, what is it — and is it buildable?
+
+FALSIFICATION:
+Your job is to KILL weak opportunities before the Crucible wastes time on them.
+- Data observability (Monte Carlo, Bigeye) — is this category solved, crowded, or still open?
+- Semantic layers (Cube, dbt Semantic Layer) — do these actually solve the AI-agent problem,
+  or do they solve the human-BI problem? What is the gap if any?
+- Data contracts — lots of talk, little enforcement. Is this a real product gap or a
+  process/culture problem that tooling cannot fix?
+- Cost optimization for cloud warehouses — is this a product opportunity or will Snowflake
+  and Databricks just build it natively?
+- For each: what would have to be true for this to be a real, durable startup opportunity
+  vs. a feature that gets absorbed by the platform in 18 months?
+
+CRUCIBLE:
+You receive outputs from Historian, First Principles, and Falsification.
+Your job is to SYNTHESIZE into specific, ranked, actionable opportunities.
+Do NOT produce a balanced view. Produce a CONVICTION.
+- What does the Historian's pattern predict that First Principles confirms?
+- Which candidates survived Falsification — and which ones did Falsification kill?
+- Rank the survivors by: (1) pain acuity, (2) buildability, (3) defensibility, (4) timing
+- State the single best bet and WHY, with explicit acknowledgment of what could make it wrong.
+
+
+PRACTITIONER VOICE — weight these above vendor/analyst content:
+===============================================================
+
+COMPLAINT 1 — ROLE AMBIGUITY / SCOPE CREEP (most frequent Reddit signal)
+"Data Engineer is not well-defined and can mean wildly different things depending on the company."
+Engineers routinely own security, infrastructure, microservices, analytics, AND pipelines.
+Root cause: no clear boundary between data producer accountability and data consumer needs.
+
+COMPLAINT 2 — BUZZWORD FATIGUE / VENDOR TRUST DEFICIT
+Practitioners are hostile to: Data Fabric, Medallion Architecture, Zero ETL, Modern Data Stack.
+Charge: rebranded old ideas with new pricing. Zero ETL moves complexity, does not eliminate it.
+Root cause: vendors solve their distribution problem, not the practitioner's actual problem.
+
+COMPLAINT 3 — THE SEMANTIC GAP (acute, no satisfying solution exists)
+LLMs can infer data types but cannot understand intent:
+  - "active users" = logged in last 30 days? opted into emails? paid in last 90 days?
+  - "Amount" = net or gross? euros or dollars? including tax?
+  - Which source is the golden record vs. the legacy artifact?
+Business semantics live in people's heads. No tool has captured and operationalized them.
+Root cause: semantics are organizational knowledge, not technical knowledge — hard to encode.
+
+COMPLAINT 4 — SCHEMA CHANGE BLAST RADIUS (daily operational pain)
+When upstream changes a column, downstream pipelines break silently or loudly.
+Current workflow: pipeline fails → DE investigates → traces to schema change → fixes manually.
+Entirely reactive. No proactive blast radius mapping. No automated impact analysis.
+Root cause: data systems lack the equivalent of software's dependency graph + breaking change detection.
+
+COMPLAINT 5 — DATA QUALITY AS ORGANIZATIONAL FAILURE
+67% of professionals don't trust their org's data — UP while tooling investment INCREASES.
+Tools are not solving it. Problem is organizational: unclear ownership, no producer accountability.
+Root cause: data quality tools alert on symptoms; they don't enforce producer accountability.
+
+COMPLAINT 6 — AI AGENT FAILURES UNTRACEABLE
+When an AI agent produces a wrong answer on enterprise data, nobody can trace why.
+Which training rows? Which embedding version? Which metric definition? Which source system?
+Current lineage tools trace SQL. They do not trace embedding pipelines, RAG retrievals, or
+model inference chains.
+Root cause: lineage tooling was built for the SQL/warehouse world, not the AI pipeline world.
+
+
+CONTEXT (background only — do not treat as conclusions):
+=========================================================
+- Traditional ETL vendors (Informatica, Talend) built empires on reliable data movement
+- Snowflake/Databricks/dbt disrupted by moving transformation into the warehouse
+- Apache Iceberg has emerged as dominant open table format — format wars largely settled
+- Zero-ETL pushed by AWS/Snowflake as direct source-to-target; practitioners call it marketing
+- Data contracts discussed extensively; implemented as runtime enforcement almost nowhere
+- Primary data consumer shifting from human analysts to AI agents and ML pipelines
+- Median enterprise: 60-80% of DE time consumed by pipeline maintenance, not new work
+- "ETL is dead" narrative loudest from vendors who benefit from ETL's death
+- Data observability market: Monte Carlo, Bigeye, Acceldata — crowded but not solved
+- Semantic layer market: Cube, dbt Semantic Layer, Snowflake Semantic Views — BI-oriented
+- MCP servers now available for all major warehouses — AI-data integration layer forming
+- 95% of enterprise generative AI pilots failing to achieve ROI (MIT 2025 report)
+- Practitioner trust in vendor narratives is LOW — weight complaints above analyst reports

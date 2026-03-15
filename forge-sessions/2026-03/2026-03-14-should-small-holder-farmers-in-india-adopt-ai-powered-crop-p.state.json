@@ -1,0 +1,33 @@
+{
+  "session_id": "20260314-235425",
+  "created_at": "2026-03-14T23:54:25.027475",
+  "problem_raw": "Should small-holder farmers in India adopt AI-powered crop planning tools given limited connectivity and low digital literacy?",
+  "problem_refined": "Should small-holder farmers in India adopt AI-powered crop planning tools given limited connectivity and low digital literacy?",
+  "falsifiability_test": null,
+  "hidden_assumptions": null,
+  "definition_iterations": 1,
+  "stage": "0-1",
+  "contextual_agents": [],
+  "inversion_output": "[MOCK RESPONSE #2]\n\nSystem prompt received (2494 chars). User message received (146 chars).\n\nThis is a mock response for testing. In production, this would be a real LLM response from mock/mock-model.",
+  "agent_outputs": {
+    "Forced Inversion": "[MOCK RESPONSE #3]\n\nSystem prompt received (2494 chars). User message received (572 chars).\n\nThis is a mock response for testing. In production, this would be a real LLM response from mock/mock-model.",
+    "First Principles": "[MOCK RESPONSE #4]\n\nSystem prompt received (2613 chars). User message received (572 chars).\n\nThis is a mock response for testing. In production, this would be a real LLM response from mock/mock-model.",
+    "Falsification": "[MOCK RESPONSE #5]\n\nSystem prompt received (2953 chars). User message received (572 chars).\n\nThis is a mock response for testing. In production, this would be a real LLM response from mock/mock-model.",
+    "Historian": "[MOCK RESPONSE #6]\n\nSystem prompt received (2273 chars). User message received (572 chars).\n\nThis is a mock response for testing. In production, this would be a real LLM response from mock/mock-model."
+  },
+  "agent_order": [
+    "Forced Inversion",
+    "First Principles",
+    "Falsification",
+    "Historian"
+  ],
+  "crucible_output": "[MOCK RESPONSE #7]\n\nSystem prompt received (3502 chars). User message received (1541 chars).\n\nThis is a mock response for testing. In production, this would be a real LLM response from mock/mock-model.",
+  "mode_switched": false,
+  "external_signal": null,
+  "mode_switch_time": null,
+  "conviction_output": null,
+  "human_decided": null,
+  "decision_time": null,
+  "current_stage": "crucible_complete",
+  "metadata": {}
+}
